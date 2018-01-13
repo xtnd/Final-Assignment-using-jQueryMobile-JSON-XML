@@ -1,0 +1,141 @@
+<!--Final Project -->
+<!--Kody Scharf, Andrew Lee -->
+<!--Kody Scharf
+	991455754
+	Assignment3
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Final Project</title>
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1"> 
+
+	<link rel="stylesheet" href="css/jquery.mobile.css" />
+	<link rel="stylesheet" href="css/mystyles.css" />	
+	<script src="js/jquery.js"></script>											
+	<script src="js/jquery.mobile.js"></script>							
+	<script src="js/myscript.js"></script>
+<script async defer 
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPl6w9dWO80po9vnTZhOy3a76PbIrwJFE&callback"
+					type="text/javascript"></script>	
+</head>
+<body>
+<div id="home" data-role="page" data-theme="b">
+
+	<header id="header" data-role="header">
+		<h1></h1>
+	</header> 
+	
+	<section data-role="ui-content">
+		<ul data-role="listview" class="notext">
+				<li>
+					<a href="#jsonData" data-transition="slidefade">Health Information</a>
+				</li>
+				<li>
+					<a href="#xmlData" data-transition="slidefade">Pharmaceutical Company Data</a>
+				</li>
+				
+		</ul>
+	</section>
+	
+	
+	<footer data-role="footer">
+		<div data-role="navbar">
+				<ul> 
+					<li>
+						<a href="#popupBasic" data-rel="popup"><img src="images/me.jpg" width='50' height='50'><p>Kody Scharf</p></a>
+					</li>
+					<li>
+						<a href="#popupBasic2" data-rel="popup"><img src="images/me2.jpg" width='50' height='50'><p>Andrew Lee</p></a>
+					</li>
+				</ul>		
+		</div>
+		<div class="lastUpdate"></div>
+	</footer>
+	
+	<div data-role="popup" id="popupBasic">
+		<p></p>
+	</div>
+	
+	<div data-role="popup" id="popupBasic2">
+		<p></p>
+	</div>
+	
+	
+	
+</div>
+<!--End of page 1 -->
+
+<!--Health Information -->
+	<div data-role="page" id="jsonData" data-theme="b">
+
+		
+		<header id="header" data-role="header">
+			<h1></h1>
+			<a href="#home" class="ui-btn ui-btn-icon-left ui-icon-arrow-l">Back</a>
+		</header> 
+		
+		<section data-role="ui-content">
+		
+			<div id="jsonBody">
+			<p></p>
+			</div>
+		
+		</section>
+		
+		<div data-role="navbar">
+				<ul> 
+					<li>
+						<a href="#page2popup1" data-rel="popup"><img src="images/me.jpg" width='50' height='50'><p>Kody Scharf</p></a>
+					</li>
+					<li>
+						<a href="#page2popup2" data-rel="popup"><img src="images/me2.jpg" width='50' height='50'><p>Andrew Lee</p></a>
+					</li>
+					<li>
+						<a href="#home">Back</a>
+					</li>
+				</ul>		
+		</div>
+		
+		<div data-role="popup" id="page2popup1">
+		<p></p>
+	</div>
+	
+	<div data-role="popup" id="page2popup2">
+		<p></p>
+	</div>
+
+	</div>
+	
+	<!--Pharmaceutical Information -->
+	<div data-role="page" id="xmlData" data-theme="b">
+
+		<header id="header" data-role="header">
+			<h1 class="company"></h1>
+			<a href="#home" class="ui-btn ui-btn-icon-left ui-icon-arrow-l">Back</a>
+		</header> 
+		
+		<section class="ui-content" role="main" >
+		<p class="coord"></p>
+			<div id="mapArea" style="height:200px; width:300px;"></div>	
+		</section>
+		
+		<section>
+			
+			<div id="drugs" data-role="collapsible-set">
+				<p class="uline">Choose your drug: </p>
+			</div>		
+		</section>
+		
+		<footer data-role="footer" data-position="fixed" id="footerXML">
+			<p>Contact us at: </p>
+		</footer>
+	
+	</div>
+
+
+</body>
+</html>

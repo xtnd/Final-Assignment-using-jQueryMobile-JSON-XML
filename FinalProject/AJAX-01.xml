@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?> <!--Version -->
+<Pharmaceutical> <!--Root node -->
+
+	<Company url="https://www.astrazeneca.ca/en">
+		<name>AstraZenica</name>
+		<phone>1-800-565-5877</phone>
+		<longitude>52.174785</longitude>
+		<latitude>0.135078</latitude>
+		
+
+		<product name="Accolate">
+			<brand>Accolate</brand>
+			<drugName>zafirlukast</drugName>
+			<description> is a leukotriene receptor antagonist that blocks 
+			substances called leukotrienes.  Leukotrienes cause a 
+			narrowing and swelling of airways in your lungs which 
+			results in asthma symptoms.  Blocking leukotrienes 
+			improves asthma symptoms and helps prevent asthma 
+			attacks.</description>
+			<administered>Swallow each tablet whole with a full glass of water. 
+			Do not take your tablet(s) with a meal. Try to take your medicine at the same times each day.</administered>
+			<contraindiction>You are allergic to zafirlukast or any of the ingredients in 
+			ACCOLATE tablets, or if you have problems with your liver. </contraindiction>
+		</product>
+
+		<product name="Alvesco">
+			<brand>Alvesco</brand>
+			<drugName>ciclesonide</drugName>
+			<description>Management of steroid-responsive bronchial asthma in adults, adolescents and children 6 years of age and older.</description>
+			<administered>Oral Inhalation</administered>
+			<contraindiction>You have hypersensitivity to any of the ingredients.</contraindiction>
+		</product>
+
+		<product name="Arimidex">
+			<brand>Arimidex</brand>
+			<drugName>anastrozole</drugName>
+			<description>Used to treat breast cancer in postmenopausal women.</description>
+			<administered>Is a pill taken by mouth, should take about same time each day with or without food.</administered>
+			<contraindiction>You are a women who are pregnant or may become pregnant.</contraindiction>
+		</product>
+
+		<product name="Atacand">
+			<brand>Atacand</brand>
+			<drugName>candesatan</drugName>
+			<description>Used for treating high blood pressure, also to treat kidney problems caused by type-2 diabetes.</description>
+			<administered>Is a pill taken daily. Should take about the same time each day.</administered>
+			<contraindiction>You are pregenant.</contraindiction>
+		</product>
+
+	</Company>
+
+
+</Pharmaceutical>

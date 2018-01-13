@@ -1,0 +1,19 @@
+{
+	"groupMemberInfo": {
+		"member": [
+			{
+				"name": "Kody Scharf",
+				"login": "scharfk",
+				"studentNumber": "991455754",
+				"picture": "me.jpg"
+			}, 
+			{
+				"name": "Andrew Lee",
+				"login": "leehose",
+				"studentNumber": "991457820",
+				"picture": "me2.jpg"
+			}
+		]
+	}
+
+}
